@@ -1,20 +1,20 @@
 groups:
   - name: linux
     nodes:
-      - 35.180.91.86
+      - 1.2.3.4
     config:
       transport: ssh
       ssh:
         host-key-check: false
         user: centos
         run-as: root
-        private-key: C:\Users\pette\Documents\proggikset\bolt\bolt_ws_key.pem
+        private-key: asdf
   - name: windows
     nodes:
-      - 35.181.57.205
+      - 5.6.7.8
     config:
       transport: winrm
       winrm:
         user: administrator
-        password: BoltR0cks!
+        password: xxyyzz
         ssl: false
